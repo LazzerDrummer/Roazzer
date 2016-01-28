@@ -12,8 +12,10 @@ public class Car extends JComponent {
 	int x;
 	int y;
 	public void paint(Graphics g) {
-		int x = (map.width/2)- (width/2);
-		int y = ((map.height-height)-1);
 		g.drawRect(x, y, width, height);
+	}
+	public void initPosition() {
+		x=(map.width/2)- (width/2);
+		y=((map.height-height)-1);
 	}
 }

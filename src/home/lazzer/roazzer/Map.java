@@ -22,6 +22,8 @@ public class Map extends JComponent  implements ActionListener{
 		this.car = car;
 		this.road.map = this;
 		this.car.map = this;
+		car.initPosition();
+
 		
 	}
 	
