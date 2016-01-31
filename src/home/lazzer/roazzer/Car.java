@@ -18,4 +18,5 @@ public class Car extends JComponent {
 		x=(map.width/2)- (width/2);
 		y=((map.height-height)-1);
 	}
+	
 }

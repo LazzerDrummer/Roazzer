@@ -1,6 +1,8 @@
 package home.lazzer.roazzer;
 import java.awt.BorderLayout;
-
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 import javax.swing.JFrame;
 import javax.swing.Timer;
 
@@ -15,5 +17,7 @@ public class Main {
 		window.setVisible(true);
 		Timer timer = new Timer(25, myCanvas);
 		timer.start();
+		
+	    
 	}
 }
